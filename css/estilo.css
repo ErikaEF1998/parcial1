@@ -1,0 +1,67 @@
+* {
+	padding: 0px;
+	margin: 0px;
+}
+
+body{
+	background-color: #000;
+}
+
+
+.calculadora {
+	background-color: #e2e2e2;
+	width: fit-content;
+	margin: auto;
+	margin-top: 150px
+}
+
+
+
+.codigo button {
+	width: 247px;
+	background-color:#f6b55d;
+	color: #fff;
+	border: none;
+	font-size: 25px;
+	padding: 0px
+}
+
+.teclas {
+	display: flex;
+}
+
+
+#resultado {
+	width: 210px;
+	background-color:#818181;
+	color: #eee;
+	padding: 20px;
+	font-family: monospace;
+	font-size: 20px
+}
+
+
+.op button {
+	margin: 3px 2px;
+	display: block;
+	width: 60px;
+	height: 60px;
+	background-color:#00c0ff;
+	color: #fff;
+	padding: 10px;
+}
+
+
+.numeros button {
+	width: 60px;
+	height: 60px;
+	background-color:#0091ff;
+	color: white;
+
+}
+
+button {
+	margin: 2px 0px;
+	padding: 10px 20px;
+	font-size: 20px;
+}
